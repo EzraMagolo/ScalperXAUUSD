@@ -13,16 +13,16 @@ from email.mime.text import MIMEText
 logging.basicConfig(filename='XAUUSD_bot.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 # NewsAPI configuration
-NEWS_API_KEY = 'ciJ11xRiUciWcF0V7qrV1apg8jk3hlkp2Yd44Kz4'  # Replace with your NewsAPI key
+NEWS_API_KEY = ''  # Replace with your NewsAPI key
 NEWS_API_URL = 'https://api.marketaux.com/v1/news/all'
 
 # MetaTrader5 path
 MT5PATH = r"C:\Program Files\MetaTrader 5\terminal64.exe"
 
 # Email configuration
-EMAIL_SENDER = "beatsbyzare@gmail.com"  # Replace with your email
-EMAIL_PASSWORD = "ymbk iskr gykb akor "  # Replace with your email password
-EMAIL_RECEIVERS = ["etunuka14@gmail.com", "wilocholla@gmail.com"]  # List of email receivers
+EMAIL_SENDER = ""  # Replace with your email
+EMAIL_PASSWORD = " "  # Replace with your email password
+EMAIL_RECEIVERS = [""]  # List of email receivers
 
 
 # Connect to MetaTrader5
